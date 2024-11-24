@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Vault Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Your Code Vault Dashboard</h1>
+        
+        <!-- Display User's Secrets -->
+        <div id="secrets-container">
+            <!-- Secrets will be dynamically loaded here -->
+        </div>
+
+        <!-- Form to Add a New Secret -->
+        <div class="add-secret">
+            <h2>Add a New Secret</h2>
+            <input type="text" id="secret-name" placeholder="Secret Name" />
+            <input type="text" id="secret-value" placeholder="Secret Value" />
+            <button id="add-secret-btn">Add Secret</button>
+        </div>
+    </div>
+
+    <script src="api.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
